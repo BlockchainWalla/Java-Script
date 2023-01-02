@@ -45,7 +45,7 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randonButton = document.querySelector(".random-btn");
 let currentItem = 0;
-//loads the screen
+//loads the screen.
 window.addEventListener("DOMContentLoaded",function(){
   showPerson(currentItem);
 });
